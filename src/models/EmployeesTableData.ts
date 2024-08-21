@@ -1,0 +1,26 @@
+export type Employee = {
+  tenantId: null;
+  userName: string;
+  name: null | string;
+  surname: null;
+  email: string;
+  emailConfirmed: boolean;
+  phoneNumber: null;
+  phoneNumberConfirmed: boolean;
+  isActive: boolean;
+  lockoutEnabled: boolean;
+  accessFailedCount: number;
+  lockoutEnd: null;
+  concurrencyStamp: string;
+  entityVersion: number;
+  lastPasswordChangeTime: Date;
+  isDeleted: boolean;
+  deleterId: null;
+  deletionTime: null;
+  lastModificationTime: Date | null;
+  lastModifierId: null | string;
+  creationTime: Date;
+  creatorId: null | string;
+  id: string;
+  extraProperties: any;
+};
